@@ -89,7 +89,7 @@ int main() {
     half *B = nullptr;
     cudaMalloc(&B, matSize/2);
 
-    float *cuda_C = nullptr
+    float *cuda_C = nullptr;
     cudaMalloc(&cuda_C, matSize);
 
     // copy to cuda
