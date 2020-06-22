@@ -104,7 +104,7 @@ int main() {
 
     for(int i = 0; i < 16; i++)
         for (int j =0; j < 16; j++)
-            printf("%f", output_C[i*16+j]);
+            printf("%.0f", output_C[i*16+j]);
 
     return 0;
 }
